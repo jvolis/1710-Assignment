@@ -1,28 +1,10 @@
-.header{
-	text-align: center;
-	width: 800px;
-	margin-top: 20px;
-	margin-left: auto;
-	margin-right: auto;
-	border: 3px;
-	border-style: solid;
-	border-color: fuchsia;
-	padding: 20px;
-
-}
-
-ul li{
-	display: inline;
-}
-
 
 .body-article{
-	float; left;
 	width: 800px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 20px;
-	margin-bottom: 0px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 	border: 3px;
 	border-style: solid;
 	border-color: fuchsia;
@@ -30,6 +12,7 @@ ul li{
 }
 
 #navbar{
+	float: left;
 	width: 170px;
 	margin-left: 20px;
 	margin-right: 0px;
@@ -39,9 +22,4 @@ ul li{
 	border-style: solid;
 	border-color: fuchsia;
 	padding: 5px;
-}
-
-#container{
-	float: left;
-	clear: none;
 }

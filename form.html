@@ -1,1 +1,26 @@
 <!DOCTYPE HTML>
+
+<head>
+	<title>Feedback Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<div class="header">
+		<h1 class="troll">Oi m80s I need some messages</h1>
+	</div>
+
+	<div class="body-article">
+	<form name="feedback" method="post"  action="mailto:you@site.com">
+		First Name:<br>
+		<input type="text" name="fname" size="25">
+		<br>Last Name:<br>
+		<input type="text" name="lname" size="25">
+		<br>Feedback:<br>
+<textarea cols="50" rows="4" name="comment"></textarea>
+<br>
+<input type="submit" value="Submit">
+<input type="reset">
+</form>
+	</div>	
+</body>

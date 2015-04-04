@@ -25,11 +25,11 @@ h1{
 
 }
 
-ul li{
+/*ul li{
 	display: inline;
 	text-align: center;
 }
-
+*/
 
 .body-article{
 	background-color: white;
@@ -45,9 +45,11 @@ ul li{
 	padding: 20px;
 }
 
-#navbar{
-	width: 170px;
-	margin-left: 20px;
+ #sidebar{
+ 	background-color: white;
+	position: fixed;
+	width: 150px;
+	margin-left: 0;
 	margin-right: 0px;
 	margin-top: 50px;
 	margin-bottom: 50px;

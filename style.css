@@ -1,25 +1,15 @@
 body{
+	font-family: 'Open Sans', sans-serif;
 	background-color: #FCFCFC;
-
 }
 
-h1{
-
-	font-family: 'Open Sans', sans-serif;
-/*	font-family: "Comic Sans MS";*/
-}
-
-.troll{
-	font-family: 'Open Sans', sans-serif;
-/*
-	font-family: "Comic Sans MS";
-*/
+#centered-image{
+	text-align: center;
 }
 
 textarea{
 	resize: none;
 }
-
 
 #logo{
 	width: 30%;
@@ -41,7 +31,7 @@ textarea{
 
 .header{ /*for the top of the page*/
 	text-align: center;
-	width: 70%;
+	width: 55%;
 	margin-top: 7%;
 	margin-left: auto;
 	margin-right: auto;
@@ -54,14 +44,16 @@ textarea{
 ul li{
 	display: inline;
 	text-align: left;
+	font-size: 20px;
 }
 
 
 .body-article{
+	text-align: left;
 	font-size: 16px;
-	text-align: center;
+	text-align: left;
 	float; left;
-	width: 70%;
+	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 1%;
@@ -72,6 +64,8 @@ ul li{
  #sidebar{
  	top: 0;
  	left: 0;
+ 	font-style: italic;
+ 	font-weight: bold;
  	background-color: #D7D7D7;
  	opacity: .9;
 	position: fixed;
@@ -89,7 +83,14 @@ ul li{
 }
 
 #footer{
-	width: 800px;
+	font-weight: lighter;
+	font-style: italic;
+	position: fixed;
+	bottom: 0;
+	right: 1%;
+	text-align: right;
+	font-size: 12px;
+	width: 100%;
 	margin-top: 20px;
 	margin-left: auto;
 	margin-right: auto;

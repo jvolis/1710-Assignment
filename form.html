@@ -1,41 +1,50 @@
 <!DOCTYPE HTML>
-
+<html>
 <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Feedback Form</title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,800italic,400' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
 	<div id="sidebar">
-		<ul class="troll">
-				<li><a href = "index.html">Home</a></li>
-				<li><a href="form.html">Feedback</a></li>
-				<li><a text-color=lime href="http://www.runescape.com/game?jptg=ia&jptv=navbar">DANKSCAPES</a></li>
-			</ul>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="form.html">Feedback</a></li>
+			<li><a href="sitemap.html">Site Map</a></li>
+			<li><a href="assessment.html">Assessment</a></li>
+		</ul>
 	</div>
 
 	<div class="header">
-		<h1 class="troll">Oi m80s I need some messages</h1>
+		<h1>Feedback</h1>
 	</div>
 
 	<div class="body-article">
-	<form name="feedback" method="post"  action="mailto:you@site.com">
-		First Name:<br>
+	<form name="feedback" method="post" action="mailto:jpv433@gmail.com">
+		
+		Name:<br>
 		<input type="text" name="fname" size="25">
-		<br>Last Name:<br>
-		<input type="text" name="lname" size="25">
 		<br>
-		Rate your enjoyment<br>
-		<input type="checkbox" name="swag" value="Good"> Good<br>
-		<input type="checkbox" name="swag" value="Gooder"> Gooder<br>
-		<input type="checkbox" name="swag" value="Dank"> Dank<br>
-		Feedback:<br>
-<textarea rows="4" cols="50" name="comment"></textarea>
-<br>
-<input type="submit" value="Submit">
-<input type="reset">
-</form>
+
+		<br>How great is my website?<br>
+		<input type="checkbox" name="rating" value="1"> This is a good website<br>
+		<input type="checkbox" name="rating" value="2"> I cried tears of joy upon seeing this website<br>
+		<input type="checkbox" name="rating" value="3"> This website is the highlight of my life<br>
+		
+		<br>Feedback:<br>
+		<textarea rows="6" cols="75" name="comment"></textarea>
+		<br>
+		<input type="submit" value="Submit">
+		<input type="reset">
+	
+	</form>
 	</div>
 
-	<div id="footer"></div>		
+	<div id="footer">
+		<p>James Volis u5370515</p>
+	</div>
+
 </body>
+</html>

@@ -1,0 +1,11 @@
+Source Log
+http://stackoverflow.com/questions/446060/css-two-divs-next-to-each-other For finding out how to make inline lists
+
+http://www.draac.com/EmailHTMLForms.html
+For finding out how to do proper forms
+
+http://www.google.com/fonts#UsePlace:use/Collection:Open+Sans
+For my nice font
+	
+http://www.gliffy.com/uses/web-site-map-software/
+for my Site map
